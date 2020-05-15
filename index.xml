@@ -36,7 +36,8 @@
       
       <guid>https://Shbing.github.io/publication/</guid>
       <description>Refer to Google Scholar
-1. Book Chapters  [BC1] Li, S.E., Shaobing Xu, K. Deng and Q. Zhang, “Cruising Control of Hybridized Powertrain for Minimized Fuel Consumption,” Chapter 12 of In Automotive Air Conditioning, pp. 267-289, 2016, Springer, Cham.  2. Journal Papers  [J10] Shaobing Xu, H. Peng, and Y. Tang, “Preview Path Tracking Control with Delay Compensation for Autonomous Vehicles,” IEEE Transactions on Intelligent Vehicles, 2020. (Accepted) [J9] Shaobing Xu, H.</description>
+May 1,2020
+1. Book Chapters  [BC1] Li, S.E., Shaobing Xu, K. Deng and Q. Zhang, “Cruising Control of Hybridized Powertrain for Minimized Fuel Consumption,” Chapter 12 of In Automotive Air Conditioning, pp. 267-289, 2016, Springer, Cham.  2. Journal Papers  [J10] Shaobing Xu, H. Peng, and Y. Tang, “Preview Path Tracking Control with Delay Compensation for Autonomous Vehicles,” IEEE Transactions on Intelligent Transportation Systems, 2020.</description>
     </item>
     
     <item>
@@ -45,8 +46,9 @@
       <pubDate>Mon, 02 Mar 2020 19:01:04 -0500</pubDate>
       
       <guid>https://Shbing.github.io/research/</guid>
-      <description>A. Current Focuses  Prediction of surrounding agents Motion planning with uncertainties Apply 5G and AI to enhance simulation and tests  B. Visited Topics 4. Intelligent Motion Planning This project developed intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles. Both model based and reinforcement learning based algorithms are explored for improved robustness and intelligence. More details coming later.
-Also, refer to TRI</description>
+      <description>A. Current Focuses  Prediction of surrounding agents Motion planning with uncertainties Apply 5G and AI to enhance simulation and tests  B. Visited Topics 4. Intelligent Motion Planning This project developed intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles. Both model based and reinforcement learning based algorithms are explored for improved robustness and intelligence.
+Also, refer to TRI
+    Developed software for decision making     Motion planning on highway     Motion planning in downtown area     A video of interacting with other self-driving vehicles:     3.</description>
     </item>
     
     <item>
@@ -55,7 +57,7 @@ Also, refer to TRI</description>
       <pubDate>Mon, 02 Mar 2020 19:01:04 -0500</pubDate>
       
       <guid>https://Shbing.github.io/teaching/</guid>
-      <description>Teaching as Guest Lecture  ME599-Automated and Connected Vehicle, 3 lectures on the part of vehicle dynamics and motion control, Mar 2018  </description>
+      <description>Teaching as Guest Lecturer  ME599-Automated and Connected Vehicle, 3 lectures on the part of vehicle dynamics and motion control, Mar 2018  </description>
     </item>
     
   </channel>
