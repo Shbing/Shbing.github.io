@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Shaobing Xu">
-    <meta name="description" content="Shaobing&#39;s personal website">
-    <meta name="keywords" content="Shaobing, Shaobing Xu, 徐少兵, Tsinghua, Michigan">
+    <meta name="description" content="Shaobing&#39;s homepage">
+    <meta name="keywords" content="Shaobing, Shaobing Xu, Tsinghua, Michigan, 徐少兵, 清华大学">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Overview My research targets safe autonomy against uncertainty and aims to build safe connected automated vehicles (CAVs). Over the past 5 years, I have been engaged in two lines of research, i.e., a scalable motion planning and control algorithm/software stack for high-level CAVs, and an AI-driven sensor-level augmented reality for efficient CAV tests. Some past projects are introduced below.
-1. Intelligent Motion Planning This project aims to develop intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles."/>
+<meta name="twitter:description" content="Overview of Past Work Over the past few years, Shaobing was engaged in three lines of research, i.e., scalable motion planning and control for CAVs, AI-driven sensor-level augmented reality, and eco-speed planning for automated vehicles.
+  1. Motion Planning and Control of Autonomous Vehicles As a postdoc and researcher at Mcity, he developed and deployed a scalable motion planning and control algorithm/software stack for Level-4 CAVs, refer to the below figure."/>
 
     <meta property="og:title" content="" />
-<meta property="og:description" content="Overview My research targets safe autonomy against uncertainty and aims to build safe connected automated vehicles (CAVs). Over the past 5 years, I have been engaged in two lines of research, i.e., a scalable motion planning and control algorithm/software stack for high-level CAVs, and an AI-driven sensor-level augmented reality for efficient CAV tests. Some past projects are introduced below.
-1. Intelligent Motion Planning This project aims to develop intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles." />
+<meta property="og:description" content="Overview of Past Work Over the past few years, Shaobing was engaged in three lines of research, i.e., scalable motion planning and control for CAVs, AI-driven sensor-level augmented reality, and eco-speed planning for automated vehicles.
+  1. Motion Planning and Control of Autonomous Vehicles As a postdoc and researcher at Mcity, he developed and deployed a scalable motion planning and control algorithm/software stack for Level-4 CAVs, refer to the below figure." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Shbing.github.io/research/" />
 <meta property="article:published_time" content="2020-03-02T19:01:04-05:00" />
@@ -89,10 +89,6 @@
             <a class="navigation-link" href="https://Shbing.github.io/publication/">Publications</a>
           </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://Shbing.github.io/contact_info/">Contact</a>
-          </li>
-        
       
       
     </ul>
@@ -109,52 +105,43 @@
       <h1></h1>
     </header>
 
-    <h5 id="overview">Overview</h5>
-<p>My research targets safe autonomy against uncertainty and aims to build safe connected automated vehicles (CAVs). Over the past 5 years, I have been engaged in two lines of research, i.e., a scalable motion planning and control algorithm/software stack for high-level CAVs, and an AI-driven sensor-level augmented reality for efficient CAV tests. Some past projects are introduced below.</p>
-<h5 id="1-intelligent-motion-planning">1. Intelligent Motion Planning</h5>
-<p>This project aims to develop intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles. Both model-based and learning-based algorithms are explored for improved robustness and intelligence.</p>
-<ul>
-<li>Refer to <a href="https://bec.umich.edu/um-tri/intelligent-and-automatic-motion-planning-for-self-driving-vehicles/">TRI</a> <img src="https://Shbing.github.io/research/topic_4_planning/TRI_Poster_V2.jpg" alt="Poster"></li>
-</ul>
-<!-- raw HTML omitted -->
-<ul>
-<li>Developed software for decision making
+    <h3 id="overview-of-past-work">Overview of Past Work</h3>
+<p>Over the past few years, Shaobing was engaged in three lines of research, i.e., scalable motion planning and control for CAVs, AI-driven sensor-level augmented reality, and eco-speed planning for automated vehicles.</p>
+<figure>
+    <img src="Main-research-on-connected-and-automated-vehicles.jpg" height="400"/> 
+</figure>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/iASIG5vs8aA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h5 id="2-dynamics-and-delay-aware-motion-control">2. Dynamics-and-Delay-Aware Motion Control</h5>
-<h6 id="21-design-analysis-and-experiments-of-preview-path-tracking-control">2.1) Design, Analysis, and Experiments of Preview Path Tracking Control</h6>
-<p>How to achieve smooth, accurate, and computationally efficient steering control? We address this issue by developing a discrete-time preview steering controller, which considers vehicle dynamics and can smoothly deal with future road curvature. Its tracking performance is comparable to MPC but the computational load is greatly reduced due to its closed-form control law. Experiments on an automated Lincoln MKZ validated its improved tracking accuracy and smoothness. <a href="https://Shbing.github.io/papers/first-author/J7_Design-Analysis-and-Experiments-of-Preview-Path-Tracking-Control-for-Autonomous-Vehicles.pdf">Details</a></p>
-<h6 id="22-safeguard-protected-preview-lane-keeping-control">2.2) Safeguard Protected Preview Lane Keeping Control</h6>
-<p>How to bound tracking errors to a certain safe level for better safety? In this paper, we solve this challenge by designing a preview lane keeping control supervised by a safeguard controller. The safeguard controller intervenes in the preview control if and only if the tracking error is approaching the safety boundary. The proposed controls were implemented on a self-driving vehicle platform and tested on open roads and in the Mcity test facility. <a href="https://Shbing.github.io/papers/first-author/J9-Design-and-Experiments-of-Safeguard-Protected-Preview-Lane-Keeping-Control-for-Autonomous-Vehicles.pdf">Details</a>, <a href="https://ieeexplore.ieee.org/document/8986626">Link to video</a></p>
-<h6 id="23-preview-path-tracking-control-with-delay-compensation">2.3) Preview Path Tracking Control With Delay Compensation</h6>
-<p>Does your self-driving car run with unexpected slalom and steering oscillation? If yes, then one potential cause is the system time delay and steering lag. This paper targets this challenge and presents a delay-compensated preview steering control design, which can lower tracking errors and significantly improve stability margin compared to controls ignoring delay and lag. All the controller design, performance analysis, and experimental validation on a self-driving MKZ platform are detailed. <a href="https://Shbing.github.io/papers/first-author/J10-Preview-Path-Tracking-Control-With-Delay-Compensation-for-Autonomous-Vehicles.pdf">Details</a></p>
+<h5 id="1-motion-planning-and-control-of-autonomous-vehicles">1. Motion Planning and Control of Autonomous Vehicles</h5>
+<p>As a postdoc and researcher at Mcity, he developed and deployed a scalable motion planning and control algorithm/software stack for Level-4 CAVs, refer to the below figure. Especially, i) A delay-and-dynamics-aware preview motion control algorithm is proposed, targeting challenges of large time delay, steering lag, and time-varying path curvature. It has some unique features: higher stability against delay, look-ahead capability, and analytical control law which means computationally efficient.  ii) A deterministic sampling trajectory generation algorithm is developed, which can be used in various, not one or some predefined, scenarios and can achieve smooth near-optimal trajectory within bounded computing time. iii) Algorithms for speed tracking, behavior planning, and motion prediction are also designed. On top of these algorithms, a full motion planning and control software stack is developed, which was deployed and tested on the Mcity CAV fleet.</p>
+<p><a href="https://Shbing.github.io/research/Developed-motion-planning-and-control-stack.mp4"><strong>Click on this link or the image below to watch a video.</strong></a>
+<a href="https://Shbing.github.io/research/Developed-motion-planning-and-control-stack.mp4"><figure>
+    <img src="Developed-motion-planning-and-control-stack.png" height="400"/> 
+</figure>
+</a></p>
+<p>Refer to the following papers for more details.</p>
 <ul>
-<li>Control ignoring delay and lag, refer to <a href="https://youtu.be/3KUL1zJ8U64">video</a></li>
+<li><a href="https://Shbing.github.io/papers/first-author/J11_System_and_Experiments_of_Model-Driven_Motion_Planning_and_Control_for_Autonomous_Vehicles.pdf">Motion Planning and Control Stack</a></li>
+<li><a href="https://Shbing.github.io/papers/first-author/J7_Design-Analysis-and-Experiments-of-Preview-Path-Tracking-Control-for-Autonomous-Vehicles.pdf">Design of Preview Tracking Control</a></li>
+<li><a href="https://Shbing.github.io/papers/first-author/J10-Preview-Path-Tracking-Control-With-Delay-Compensation-for-Autonomous-Vehicles.pdf">Preview Control Considering Delay and Lag</a></li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<ul>
-<li>Control considering delay and lag
+<p>Services to top media and visitors.
+<figure>
+    <img src="Applications_and_service.png" height="340"/> 
+</figure>
+</p>
+<h5 id="2-ai-driven-augmented-reality-for-adversarial-cav-testing">2. AI-driven Augmented Reality for Adversarial CAV Testing</h5>
+<p>Motivated by the embarrassing dilemma that most closed CAV proving grounds do not have an adversarial traffic environment for testing, we proposed and developed an AI-driven sensor-level augmented reality (AR) concept, algorithm pipeline, and software tools to generate an adversarial environment. It can augment the raw sensor data captured in an empty track with diverse weather conditions (e.g., snow and rain) and interactive traffic flows (e.g., cars and pedestrians). Such kind of augmented reality enables the CAV to safely experience various weather/traffic challenges in limited time and space. The system has a few unique features when rendering the virtual weather and traffic: <strong>controllable, high fidelity, and dynamic</strong>. It has been deployed to the Mcity testing track and serves the daily testing.
+<figure>
+    <img src="AI-driven-sensor-level-AR.png" height="400"/> 
+</figure>
+</p>
+<h5 id="3-energy-efficient-speed-planning-for-automated-eco-driving">3. Energy-Efficient Speed Planning for Automated Eco-Driving</h5>
+<p>The primary focus is on how to determine the fuel-minimized driving strategies and synthesize the servo-loop controllers in the presence of powertrain nonlinearities, including engine non-convex fueling characteristics and transmission discontinuity. Different from the data/statistics-driven methods, we propose to obtain the eco-driving strategies by model-based optimal control and revealed the energy-optimal driving operations in 3 typical scenarios, i.e., cruising, accelerating, and driving on slopes. The eco-driving strategies as well as their underlying mechanism and servo-loop control law are revealed. This work may provide reference algorithms for the design of automated eco-driving in sparse traffic flow.</p>
+<figure>
+    <img src="Energy_optimal_cruising_strategy_for_HEV_and_mechanism.jpg" height="350"/> 
+</figure>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/A6Gcfd_YXig" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h6 id="24-design-and-test-of-speed-tracking-control-for-the-self-driving-lincoln-mkz-platform">2.4) Design and Test of Speed Tracking Control for the Self-Driving Lincoln MKZ Platform</h6>
-<p>How to smoothly and accurately track a planned speed profile considering the powertrain nonlinearity? Taking the Lincoln MKZ as an example, we designed two computationally efficient, smooth, and accurate speed-tracking control algorithms, i.e., 1) an optimal preview control if future information (reference speed and road slope) is provided a priori, and 2) a PID+C control if the information is unavailable. All controls are validated by the MKZ platform at Mcity. <a href="https://Shbing.github.io/papers/first-author/J8_Design-and-Test-of-Speed-Tracking-Control-for-the-Self-Driving-Lincoln-MKZ-Platform.pdf">Details</a></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h5 id="3-energy-efficient-motion-planning-of-autonomous-vehicles">3. Energy-Efficient Motion Planning of Autonomous Vehicles</h5>
-<p>How to drive the vehicle with minimal fuel consumption? This project designed speed profile optimization algorithms and powertrain control strategies for self-driving vehicles with hybrid electric powertrain or conventional powertrain. Nonlinear constrained eco-driving problems are formulated and solved by Legendre pseudo-spectral method. If you are interested in how to use minimal fuel (energy) to accelerate a car, cruise on highways (for both conventional vehicles and HEV), and drive on varying slopes, please refer to the following papers for detailed algorithms, performance, and the underlying mechanisms.</p>
+<p>If you are interested in how to use minimal fuel (energy) to accelerate a car, cruise on highways (for both conventional vehicles and HEV), and drive on varying slopes, please refer to the following papers for detailed algorithms and why.</p>
 <ul>
 <li><a href="https://Shbing.github.io/papers/first-author/J5-Instantaneous-feedback-control-for-a-fuel-prioritized-vehicle_cruising-system-on-highways-with-a-varying-slope.pdf">Eco-Driving on Varying Slope</a></li>
 <li><a href="https://Shbing.github.io/papers/first-author/J4-Fuel-saving-Cruising-Strategies-for-Parallel-HEV.pdf">Eco-Cruising of Parallel HEV</a></li>
@@ -173,6 +160,9 @@
   <section class="container">
     
     
+    
+      
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
     
     
   </section>

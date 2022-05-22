@@ -17,17 +17,8 @@
       <pubDate>Mon, 02 Mar 2020 19:01:04 -0500</pubDate>
       
       <guid>https://Shbing.github.io/bio/</guid>
-      <description>Shaobing Xu is an assistant research scientist (from 1/2019) and was a postdoctoral researcher (10/2016-12/2018) working with Prof. Huei Peng at the Department of Mechanical Engineering (ME) and Mcity, University of Michigan, Ann Arbor. He received his Ph.D. degree in Mechanical Engineering from Tsinghua University, Beijing, China, in 2016. His work lies at learning, control, and design of autonomous systems with an emphasis on connected automated vehicles (CAVs).
-Appointment  Assistant Research Scientist, University of Michigan, Ann Arbor, 1/2019-Now Postdoctoral Research Fellow, University of Michigan, Ann Arbor, 10/2016-12/2018  Education   Tsinghua University (9/2011-6/2016)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://Shbing.github.io/contact_info/</link>
-      <pubDate>Mon, 02 Mar 2020 19:01:04 -0500</pubDate>
-      
-      <guid>https://Shbing.github.io/contact_info/</guid>
-      <description> Email: xushao@umich.edu Address: 2905 Baxter Road, Ann Arbor, MI 48109-2150  </description>
+      <description>Shaobing Xu is an assistant professor at the School of Vehicle and Mobility (SVM), Tsinghua University. He was an assistant research scientist (1/2019 -2/2022) and a postdoctoral researcher (10/2016-12/2018) working with Prof. Huei Peng at the Department of Mechanical Engineering (ME) and Mcity, University of Michigan, Ann Arbor. He received his Ph.D. degree in Mechanical Engineering from Tsinghua University, Beijing, China, in 2016.
+His work lies at the learning, control, and design of autonomous systems with an emphasis on connected automated vehicles (CAVs).</description>
     </item>
     
     <item>
@@ -37,8 +28,7 @@ Appointment  Assistant Research Scientist, University of Michigan, Ann Arbor, 1/
       
       <guid>https://Shbing.github.io/publication/</guid>
       <description>Refer to Google Scholar
-May 1, 2020
-Selected Journal Papers  [J10] S. Xu, H. Peng, and Y. Tang, “Preview Path Tracking Control with Delay Compensation for Autonomous Vehicles,” IEEE Transactions on Intelligent Transportation Systems, 2020. [J9] S. Xu, H. Peng, P. Lu, M. Zhu, and Y. Tang, “Design and Experiments of Safeguard Protected Preview Lane Keeping Control for Autonomous Vehicles,” IEEE Access, vol. 8, pp. 29944-29953, 2020. doi: 10.1109/ACCESS.2020.2972329 [J8] S.</description>
+Selected Journal Papers  [J10] S. Xu, R. Zidek, Z. Cao, P. Lu, X. Wang, B. Li, and H. Peng, “System and Experiments of Model-Driven Motion Planning and Control for Autonomous Vehicles,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2021. [J9] S. Xu, H. Peng, and Y. Tang, “Preview Path Tracking Control with Delay Compensation for Autonomous Vehicles,” IEEE Transactions on Intelligent Transportation Systems, 2020. [J8] S.</description>
     </item>
     
     <item>
@@ -47,8 +37,8 @@ Selected Journal Papers  [J10] S. Xu, H. Peng, and Y. Tang, “Preview Path Trac
       <pubDate>Mon, 02 Mar 2020 19:01:04 -0500</pubDate>
       
       <guid>https://Shbing.github.io/research/</guid>
-      <description>Overview My research targets safe autonomy against uncertainty and aims to build safe connected automated vehicles (CAVs). Over the past 5 years, I have been engaged in two lines of research, i.e., a scalable motion planning and control algorithm/software stack for high-level CAVs, and an AI-driven sensor-level augmented reality for efficient CAV tests. Some past projects are introduced below.
-1. Intelligent Motion Planning This project aims to develop intelligent algorithms and software for automatic routing, decision making, and trajectory generation of self-driving vehicles.</description>
+      <description>Overview of Past Work Over the past few years, Shaobing was engaged in three lines of research, i.e., scalable motion planning and control for CAVs, AI-driven sensor-level augmented reality, and eco-speed planning for automated vehicles.
+  1. Motion Planning and Control of Autonomous Vehicles As a postdoc and researcher at Mcity, he developed and deployed a scalable motion planning and control algorithm/software stack for Level-4 CAVs, refer to the below figure.</description>
     </item>
     
     <item>
